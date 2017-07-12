@@ -1,0 +1,17 @@
+{
+  "name": "okimdone",
+  "version": "1.0.0",
+  "description": "tells you when you're done so you don't forget",
+  "bin": "okimdone",
+  "os": [
+    "darwin"
+  ],
+  "keywords": [
+    "npx",
+    "utility",
+    "t2s"
+  ],
+  "author": "Kat Marchán <kzm@sykosomatic.org>",
+  "license": "CC0-1.0",
+  "dependencies": {}
+}

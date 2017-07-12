@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -e
+
+eval "$@"
+
+string="$@"
+say -v Samantha "ok im done running $string"
