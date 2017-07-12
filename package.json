@@ -11,6 +11,7 @@
     "utility",
     "t2s"
   ],
+  "repository": "https://github.com/zkat/okimdone",
   "author": "Kat Marchán <kzm@sykosomatic.org>",
   "license": "CC0-1.0",
   "dependencies": {}
