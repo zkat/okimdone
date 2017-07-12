@@ -1,6 +1,6 @@
 {
   "name": "okimdone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tells you when you're done so you don't forget",
   "bin": "okimdone",
   "os": [
