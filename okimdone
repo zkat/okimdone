@@ -4,6 +4,15 @@ eval "$@"
 code=$?
 
 string="$@"
-say -v Samantha "ok im done running $string"
+
+if [ "$(uname)" == "Darwin" ] ; then
+  say -v Samantha "ok im done running $string"
+elif hash spd-say 2>/dev/null ; then
+  spd-say -t female1 "ok im done running $string"
+elif hash espeak 2>/dev/null ; then
+  espeak "ok im done running $string"
+elif hash festival 2>/dev/null ; then
+  echo "ok im done running $string" | festival --tts
+fi
 
 exit $code
