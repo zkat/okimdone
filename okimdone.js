@@ -4,8 +4,8 @@ const { spawn } = require('child_process');
 // Babel to transpile this into ES5
 
 var exec = (cmd, options = {}) => new Promise(resolve => {  // use whole command string as cmd
-	const proc = spawn(cmd, { shell: true, stdio: 'inherit', ...options });  
-	proc.on('close', code => resolve(code));  // XXX: close or exit?
+	const proc = spawn(cmd, { shell: true, stdio: 'inherit', ...options }); // inherit stdio by default
+	proc.on('close', code => resolve(code));
 	proc.on('error', err => console.error(err));
 });
 var exists = async cmd => {
