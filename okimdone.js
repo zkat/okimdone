@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { spawn } = require('child_process');
 
 // TODO: async/await, default parameter and spread operator of ES6 is only available 
