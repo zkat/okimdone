@@ -2,7 +2,7 @@
 
 Literally tells you when a command is done running.
 
-Doesn't work on Windows right now. Turn up your volume.
+Turn up your volume.
 
 ## Usage
 
